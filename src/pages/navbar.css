@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+
+}
+.header .one .link{
+    text-decoration: none;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    z-index: 10;
+    padding-top: 20px;
+    position: fixed;
+   
+    
+}
+.header-bg{
+    background-color: rgba(0, 0, 0, 0.82);
+    transition: 0.5s;
+}
+.header .one{
+    margin-left: 10px;
+}
+
+.header .Two{
+    display:inline;
+    margin-right: 25px;
+    
+}
+.header .Two .two_one{
+    list-style: none;
+    font-weight: bold;
+    font-size: larger;
+    
+
+}
+li{
+    display: inline-block;
+    padding-left: 65px;
+    padding-top: 5px;
+}
+.header .Two .two_one .link{
+    text-decoration: none;
+}
+.header .Two .two_one .link:hover{
+    background-color: darkgrey;
+    border-radius: 10%;
+    padding: 5px;
+   
+    color: white;
+}
+.header .Two .two_one .resume{
+    background-color: steelblue;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    margin-left: 20px;
+   
+}
+.header .Two .two_one .resume:hover{
+    background-color: white;
+    color: black;
+    
+}
+.header .Two .two_one .resume a{
+    text-decoration: none;
+    
+}
+
+.header .Two .two_one .resume a b:hover{
+    color: black; 
+}

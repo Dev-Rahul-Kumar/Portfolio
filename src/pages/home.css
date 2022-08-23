@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+
+}
+
+#main_sheet {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.header_top {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/photo-1487073240288-854ac7f1bb3c.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+
+
+}
+
+#heros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 633px;
+    flex-direction: column;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 35px;
+}
+
+#heros h1 {
+    line-height: 40px;
+}
+
+#heros p {
+    width: 60%;
+}
+
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0.0deg)
+    }
+
+    10% {
+        transform: rotate(14.0deg)
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8.0deg)
+    }
+
+    30% {
+        transform: rotate(14.0deg)
+    }
+
+    40% {
+        transform: rotate(-4.0deg)
+    }
+
+    50% {
+        transform: rotate(10.0deg)
+    }
+
+    60% {
+        transform: rotate(0.0deg)
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0.0deg)
+    }
+}
+
+.button_class .button {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 20px;
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color: cornflowerblue;
+
+}
+
+.button_class .button:hover {
+    /* color: black; */
+    background-color: black;
+}
+
+.heros2 {
+    width: 100%;
+    height: 50%;
+    z-index: 10;
+}
+
+.skill{
+    margin-top: 40px;
+}
+
+.skill .skilltitle {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.skill .column {
+    width: calc(50% - 30px);
+    margin-left: 375px;
+    margin-top: 50px;
+
+}
+
+.skill .right .bars {
+    margin-bottom: 10px;
+
+}
+
+.skill .right .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+}
+
+.skill .right span {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.skill .right .line {
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+}
+
+.skill .right .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+
+.skill .right .python::before{
+    width: 70%;
+}
+.skill .right .html::before{
+    width: 90%;
+}
+.skill .right .css::before{
+    width: 70%;
+}
+.skill .right .javascript::before{
+    width: 60%;
+}
+.skill .right .react::before{
+    width: 85%;
+}
+.skill .right .node::before{
+    width: 50%;
+}
+.skill .right .express::before{
+    width: 55%;
+}
+.skill .right .mongodb::before{
+    width: 65%;
+}
+.skill .right .mysql::before{
+    width: 70%;
+}

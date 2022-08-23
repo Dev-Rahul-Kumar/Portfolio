@@ -1,0 +1,53 @@
+.main_page{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+
+}
+.img{
+    background: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.4) ), url(../img/images\ \(2\).jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    text-align: center;
+    padding-top: 152px;
+    
+    word-spacing: 2px;
+    line-height: 35px;
+    font-size: 20px;
+}
+.main_page .img .p{
+    width: 10px;
+}
+.contact_form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    margin-left: 410px;
+    margin-top: 50px;
+    line-height: 40px;
+}
+.contact_form input{
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+    border-color: black;
+}
+.contact_form .textArea{
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+
+}
+.contact_form .submitbutton{
+    margin-top: 15px;
+    background-color: yellow;
+    height: 36px;
+    border-radius: 15px;
+    color: black;
+
+}
