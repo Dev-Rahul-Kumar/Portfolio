@@ -63,3 +63,21 @@ box-sizing: border-box;
     
     
 }
+@media screen and (max-width: 1040px){
+    #main_project .topic_two .topic_heading{
+        padding-left: 20rem;
+        padding-top: 50px;
+    }
+    
+    #main_project .topic_two .grid .grid_one{
+        width: 350px;
+        height: 490px;
+        margin-left: 60px;
+        background-color: rgb(73, 71, 71);
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-bottom: 5rem;
+    
+    }
+    
+}

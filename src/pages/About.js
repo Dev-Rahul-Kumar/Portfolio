@@ -20,7 +20,7 @@ export default function About() {
             <h5>I am a Front-end React Developer.I can Develop responsive and secure page. </h5>
           </div>
           <div className="aboutpic">
-            <img src={about} alt="" width={500}  height={250} />
+            <img src={about} className="about_pic" alt="" width={500}  height={250} />
           </div>
         </div>
         <Footer/>

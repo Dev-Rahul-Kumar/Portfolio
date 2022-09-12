@@ -5,6 +5,8 @@ import Footer from './Footer';
 
 
 export default function Home() {
+
+  
   return (
     <>
       <div id='main_sheet'>
@@ -17,7 +19,8 @@ export default function Home() {
           </p>
 
           <br />
-          <div className="button_class">
+          <div className="button_className">
+            
             <Link to="/project"><button className='button' type='button'>Project</button></Link>
             <Link to="/contact"><button className='button' type='button'>Contact</button></Link>
           </div>
@@ -26,74 +29,74 @@ export default function Home() {
         <div className="skill">
           <h2 className='skilltitle'> My Skills</h2>
 
-          <div class="column right">
+          <div className="column right">
 
-            <div class="bars">
-              <div class="info">
+            <div className="bars">
+              <div className="info">
                 <span>PYTHON</span>
                 <span>70%</span>
               </div>
               <div className="line python"></div>
             </div>
 
-            <div class="bars">
-              <div class="info">
+            <div className="bars">
+              <div className="info">
                 <span>HTML</span>
                 <span>90%</span>
               </div>
               <div className="line html"></div>
             </div>
 
-            <div class="bars">
-              <div class="info">
+            <div className="bars">
+              <div className="info">
                 <span>CSS</span>
                 <span>70%</span>
               </div>
               <div className="line css"></div>
             </div>
 
-            <div class="bars">
-              <div class="info">
+            <div className="bars">
+              <div className="info">
                 <span>JAVASCRIPT</span>
                 <span>60%</span>
               </div>
               <div className="line javascript"></div>
             </div>
 
-            <div class="bars">
-              <div class="info">
+            <div className="bars">
+              <div className="info">
                 <span>REACT JS</span>
                 <span>85%</span>
               </div>
               <div className="line react"></div>
             </div>
 
-            <div class="bars">
-              <div class="info">
+            <div className="bars">
+              <div className="info">
                 <span>NODE JS</span>
                 <span>50%</span>
               </div>
               <div className="line node"></div>
             </div>
 
-            <div class="bars">
-              <div class="info">
+            <div className="bars">
+              <div className="info">
                 <span>EXPRESS JS</span>
                 <span>55%</span>
               </div>
               <div className="line express"></div>
             </div>
 
-            <div class="bars">
-              <div class="info">
+            <div className="bars">
+              <div className="info">
                 <span>MONGODB</span>
                 <span>65%</span>
               </div>
               <div className="line mongodb"></div>
             </div>
 
-            <div class="bars">
-              <div class="info">
+            <div className="bars">
+              <div className="info">
                 <span>MYSQL</span>
                 <span>70%</span>
               </div>

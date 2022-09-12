@@ -92,7 +92,7 @@
     }
 }
 
-.button_class .button {
+/* #main_sheet .header_top .button_class .button {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     margin: 20px;
@@ -101,10 +101,10 @@
     color: white;
     background-color: cornflowerblue;
 
-}
+} */
 
 .button_class .button:hover {
-    /* color: black; */
+    
     background-color: black;
 }
 
@@ -191,3 +191,85 @@
 .skill .right .mysql::before{
     width: 70%;
 }
+
+
+@media screen and (max-width: 1040px){
+    .skill{
+        margin-top: 40px;
+    }
+    
+    .skill .skilltitle {
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    .skill .column {
+        width: calc(50% - 30px);
+        margin-left: 13rem;
+        margin-top: 50px;
+    
+    }
+    
+    .skill .right .bars {
+        margin-bottom: 10px;
+    
+    }
+    
+    .skill .right .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    
+    }
+    
+    .skill .right span {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .skill .right .line {
+        height: 5px;
+        width: 100%;
+        background: lightgray;
+        position: relative;
+    }
+    
+    .skill .right .line::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: crimson;
+    }
+    
+    .skill .right .python::before{
+        width: 70%;
+    }
+    .skill .right .html::before{
+        width: 90%;
+    }
+    .skill .right .css::before{
+        width: 70%;
+    }
+    .skill .right .javascript::before{
+        width: 60%;
+    }
+    .skill .right .react::before{
+        width: 85%;
+    }
+    .skill .right .node::before{
+        width: 50%;
+    }
+    .skill .right .express::before{
+        width: 55%;
+    }
+    .skill .right .mongodb::before{
+        width: 65%;
+    }
+    .skill .right .mysql::before{
+        width: 70%;
+    }
+}
+

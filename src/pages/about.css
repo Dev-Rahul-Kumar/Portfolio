@@ -28,3 +28,30 @@
     width: 270px;
     font-size: 25px;
 }
+
+@media screen and  (max-width: 1040px) {
+    .about_detail{
+        display: flex;
+        justify-content:space-evenly;
+        font-size: 2rem;
+        margin-top: 100px;
+        box-sizing: border-box;
+        
+    
+    }
+    .about_detail .abouttext{
+        text-align: center;
+        width: 20rem;
+        font-size: 1.7rem;
+        margin-left: 0.7rem;
+
+    }
+    .about_detail .about_pic{
+        width: 23rem;
+        margin-right: 1.7rem;
+        border-radius: 2rem;
+        margin-left: 1rem; ;
+       
+    }
+    
+}
