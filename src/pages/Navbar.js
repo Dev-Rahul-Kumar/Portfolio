@@ -1,9 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
-import { BsWindowSidebar } from 'react-icons/bs';
+// import { BsWindowSidebar } from 'react-icons/bs';
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import "./navbar.css";
-import logo from '../img/images.jpg'
+// import logo from '../img/images.jpg'
 import { FaBars, FaTimes } from "react-icons/fa";
 
 
@@ -55,7 +55,7 @@ export default function Navbar() {
                     {/* <h1><Link className="link" to="/"><img src={logo} alt="" /></Link> </h1> */}
 
                 </div>
-                <div className={click ? "Two Mobile-menu":"Two"}>
+                <div className={click ? " Mobile-menu":"Two"}>
                     <ul className='two_one '>
                         <li><Link className='link' to="/">Home</Link> </li>
                         <li><Link className='link' to="/project">Projects</Link></li>

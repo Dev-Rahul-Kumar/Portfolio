@@ -111,15 +111,22 @@ li {
         right: 0;
         left: 0;
         padding: 40px;
+        
 
     }
     .header .Two{
         display: none;
     }
-    .header .two,.mobile-menu{
+    .header .Mobile-menu{
 
        display: flex;
+    }
 
+
+    .header .Mobile-menu .two_one li{
+        flex-direction: column;
+       justify-content: center;
+        
     }
 
    

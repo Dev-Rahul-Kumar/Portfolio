@@ -1,9 +1,10 @@
 import React from 'react';
+import "./App.css";
 import Home from './pages/Home';
 import Navbar from './pages/Navbar';
 import Projects from './pages/Projects';
 import About from './pages/About';
-import Contact from './pages/Contact'
+import Contact from './pages/Contact';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
